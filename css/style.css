@@ -89,8 +89,8 @@
 
 /*Start Skills Area*/
 .site-main .brand-area {
-    padding: 1rem 20rem;
-    margin-bottom: 4rem;
+    padding: 2rem 20rem;
+    margin-bottom: 8rem;
 }
 
 .site-main .brand-area .first-row .col-lg-4 {
@@ -164,3 +164,31 @@
 }
 
 /*End Skills Area*/
+
+/*Start Services Area*/
+
+.site-main .services-area {
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title {
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1 {
+    font-size: 35px;
+}
+
+.site-main > .services-area .services {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 1rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/*End Services Area*/
