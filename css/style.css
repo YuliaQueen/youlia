@@ -260,11 +260,13 @@
     height: 12px;
 }
 
+/*End Testimonials Area*/
+
 /*Start Subscribe Me*/
 
 .site-main .subscribe-us-area .subscribe {
     background: url("../img/subscribe-bg.png") no-repeat;
-    padding:  10rem 0;
+    padding: 10rem 0;
     margin: 3rem auto;
 }
 
@@ -296,7 +298,26 @@
     color: black;
     padding: .7rem 1.1rem;
 }
-
 /*End Subscribe Me*/
 
-/*End Testimonials Area*/
+/*Footer Area*/
+footer.footer-area {
+    padding: 5rem 0;
+    background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+    font-size: 22px;
+    padding: 2rem;
+    color: #889190;
+}
+
+footer.footer-area .social a:hover > i {
+    color: var(--primary-color);
+}
+/*End Footer Area*/
+
